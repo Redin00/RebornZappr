@@ -231,7 +231,7 @@
             "name": "Rai 4",
             "hd": true,
             "type": "hls",
-            "url": "https://raiquattro2-live.akamaized.net/hls/live/598316/raiquattro2/raiquattro2/playlist.m3u8",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv&.m3u8",
             "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
@@ -271,7 +271,7 @@
             "name": "Rai 5",
             "hd": true,
             "type": "hls",
-            "url": "https://raicinque1-live.akamaized.net/hls/live/598318/raicinque1/raicinque1/playlist_ma.m3u8",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv&.m3u8",
             "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
@@ -294,7 +294,7 @@
             "name": "Rai Movie",
             "hd": true,
             "type": "hls",
-            "url": "https://raimovie1-live.akamaized.net/hls/live/598324/raimovie1/raimovie1/playlist_ma.m3u8",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv&.m3u8",
             "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
@@ -317,7 +317,7 @@
             "name": "Rai Premium",
             "hd": true,
             "type": "hls",
-            "url": "https://raipremium1-live.akamaized.net/hls/live/598328/raipremium1/raipremium1/playlist_ma.m3u8",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv&.m3u8",
             "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
@@ -381,8 +381,6 @@
             "hd": true,
             "type": "dash",
             "url": "https://d15umi5iaezxgx.cloudfront.net/LA7D/DRM/DASH/Live.mpd",
-            "license": "clearkey",
-            "licensedetails": "a2b202e78a244da6876d5adbcf5d6a75:88c5efd5d7e49194cd780e773318f69d",
             "epg": {
                 "source": "blue",
                 "id": "239"
@@ -415,14 +413,7 @@
             "name": "Real Time",
             "hd": true,
             "type": "hls",
-            "url": "https://d2op4s24rubfe0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up3xdjecl66jn/out/v1/54acbe71ddae4c9986c03fad1352bc84/HLS_CMAF_DRM/index.m3u8",
-            "license": "clearkey",
-            "licensedetails": {
-                "9e148332ec644190976b3c12e59aa1d4": "2a1ba25dbd50db6bd3f5c78d22374a5e",
-                "2f0e7f395ffe4ca3b13e278b7fd4fe49": "0bc5b16b42987699ab5ccc427d2d3a9b",
-                "db7310d03c0f40f6a274a3a03c94a395": "399ec1955e7a1c20dd4347080e080549",
-                "d94182e0384345428aca07d569ed2b59": "8436677d5634c430681405dccfddbfbf"
-            },
+            "url": "https://d2op4s24rubfe0.cloudfront.net/out/v1/54acbe71ddae4c9986c03fad1352bc84/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "346"
@@ -445,14 +436,7 @@
             "name": "Food Network",
             "hd": true,
             "type": "hls",
-            "url": "https://d9kc4bu8iry3b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x4si0bflc4gq7/out/v1/dcecf7d9fd2b49c59e85a65016ddc255/HLS_CMAF_DRM/index.m3u8",
-            "license": "clearkey",
-            "licensedetails": {
-                "c848095817e54150a5461fef10669889": "675d439cb2aca682e94ea6a94863744b",
-                "fae1056764404b7eaa560c5ab04f025e": "4af8b96a08fca5c36df1714a8bcde042",
-                "d010da2cd777413f8c042fe51dc242b0": "2c2efac083c9908a53887bde81815c93",
-                "590033039d884e53aec4a2e921289b07": "bcf66bdb1bd457c411a44f71c61b9708"
-            },
+            "url": "https://d9kc4bu8iry3b.cloudfront.net/out/v1/dcecf7d9fd2b49c59e85a65016ddc255/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1348"
@@ -516,14 +500,7 @@
             "name": "Discovery",
             "hd": true,
             "type": "hls",
-            "url": "https://d3a5c87efixjp8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-94vzyl58b7u8n/out/v1/12837340dbdf42f2b13481a5ca6f80b2/HLS_CMAF_DRM/index.m3u8",
-            "license": "clearkey",
-            "licensedetails": {
-                "cd1223723a4f4e2e8b559bf496d4ce2d": "336a493f6b609572202c27ec1ce3904c",
-                "d7e2ce610537490db0c0c6689daf7f4d": "a3384da6beb1d44e6579d066f39bba2e",
-                "a72519a2df5945fe88a6cb61c81308f4": "eb618f57a16391cb609c98c9b09addac",
-                "56b9f988f0d6442badbf8a14c89d3d55": "2e85395010de3d6a726480fd3332d13d"
-            },
+            "url": "https://d3a5c87efixjp8.cloudfront.net/out/v1/12837340dbdf42f2b13481a5ca6f80b2/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "124"
@@ -535,14 +512,7 @@
             "name": "Giallo",
             "hd": true,
             "type": "hls",
-            "url": "https://d2iz84wnbtnuey.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-32xgu2ku0wsk9/out/v1/8a939414e62c460a9ccab7b699ed1106/HLS_CMAF_DRM/index.m3u8",
-            "license": "clearkey",
-            "licensedetails": {
-                "5796b9936a264399a6e7a57a673111fd": "6f6e383553643d406edbcac55cf159c9",
-                "e400990becff4b918dc289a223e04081": "c01ce45bfb45a39e9cd4e68f1f29cbb2",
-                "e47d3b08610441d08ad36f79e14799b8": "f5221a7296f40fe6af5de182311906b1",
-                "53a634228ca045aa9b382d070985bd5c": "89af33541c894bf4b080333e81f29e54"
-            },
+            "url": "https://d2iz84wnbtnuey.cloudfront.net/out/v1/8a939414e62c460a9ccab7b699ed1106/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "191"
@@ -596,15 +566,6 @@
             "hd": true,
             "type": "dash",
             "url": "https://alwaysdata-api.zappr.stream/k2.mpd",
-            "license": "clearkey",
-            "licensedetails": {
-                "0100f3b37d2a3ad2542d78d000ff91fa": "507ead932fe25e6f1e3ba0fc39fc7040",
-                "0101d89b4d19006867fa32807a520b3c": "6b7fad6b36b9db9f2e5a95f4b934a6fd",
-                "0102744f58a20d0e5153c97be37abac5": "cfdc30074c2b9c006b77d103b0566fa6",
-                "01030e665ffe3238d7754ca862207c93": "51de9fba37602a4b138bd33b2e7d6268",
-                "01049a11bd9b6749a499a06e442c76ff": "85d5e571cabc9327c335e529313b1bf4",
-                "0105d4ce94a8a81796bbbdc6ab4ad85e": "c9d84ec4b7359acad22b85764b24e4ce"
-            },
             "epg": {
                 "source": "blue",
                 "id": "225"
@@ -616,7 +577,7 @@
             "name": "Rai Gulp",
             "hd": true,
             "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746953&autoplay=true&muted=false",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv&.m3u8",
             "cssfix": "raiparlamento-embed",
             "epg": {
                 "source": "raiplay",
@@ -630,8 +591,7 @@
             "name": "Rai Yoyo",
             "hd": true,
             "type": "hls",
-            "url": "https://raiyoyo1-live.akamaized.net/hls/live/598330/raiyoyo1/raiyoyo1/playlist.m3u8",
-            "license": "rai-akamai",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv&.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-yoyo"
@@ -650,15 +610,6 @@
             "hd": true,
             "type": "dash",
             "url": "https://alwaysdata-api.zappr.stream/frisbee.mpd",
-            "license": "clearkey",
-            "licensedetails": {
-                "0100c4e62e71f8234dd351c39719f289": "54e36b8081149f82fede8a073bb849ea",
-                "0101df8e46342feb1c3af4deb9cae20e": "591e3976252c67b3d3754e05bfb18cc6",
-                "01020282919b84db71cbb1d4d9c5b8da": "6f5960345613d78c9142da316514c497",
-                "010359f5430752b1a62adb5c6582b6f2": "b76150e896241bcefd7f64e42fbb636e",
-                "0104cc42b23760320f22db99e1e6f7e9": "07e88517d67eee6d62c06a24a0ab527f",
-                "0105b63eff2190f9c01c9b160cdd8f78": "7a5dedd3b05d2f737e8ca5732611cf10"
-            },
             "epg": {
                 "source": "blue",
                 "id": "189"
@@ -774,14 +725,7 @@
             "name": "DMAX",
             "hd": true,
             "type": "hls",
-            "url": "https://d24suwc4j2wvyy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-09ap0j3u2xm1u/out/v1/1ef9705b7c534751889b6e01bb032f80/HLS_CMAF_DRM/index.m3u8",
-            "license": "clearkey",
-            "licensedetails": {
-                "b50bfbff8fa14bda96d92025417d784f": "8f183160378160a4494c7d3c35db96ef",
-                "eeb9d5f050034218a56d94407ced2f2d": "3d32eda3dd788800a3e760b2e595110a",
-                "8d4be046476345e28da4568fc7624a78": "0ffbfa70515875cac936b56ef9d9d084",
-                "720d7076ad214dcba88adb8afd93b867": "1bbfef8efe5ca9d37159712db3ed1eab"
-            },
+            "url": "https://d24suwc4j2wvyy.cloudfront.net/out/v1/1ef9705b7c534751889b6e01bb032f80/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "137"
@@ -802,8 +746,7 @@
             "name": "Rai Storia",
             "hd": true,
             "type": "hls",
-            "url": "https://raistoria1-live.akamaized.net/hls/live/598337/raistoria1/raistoria1/playlist.m3u8",
-            "license": "rai-akamai",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv&.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-storia"
@@ -865,14 +808,7 @@
             "name": "HGTV - Home & Garden",
             "hd": true,
             "type": "hls",
-            "url": "https://d21emhonubg8zy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yspg3gkuqw4f2/out/v1/063d830ad098456e8c76bd198dea0122/HLS_CMAF_DRM/index.m3u8",
-            "license": "clearkey",
-            "licensedetails": {
-                "72c68d5337a24e1090ace2cc5f104a3e": "8b4c4a0b9121ba958ca2fba0b97dad7c",
-                "4494cdc4d7c34f9c98e9d0c27040b287": "90ee1f2992f4510209e8f9cfbd469760",
-                "c501c9da44024cd4a1bdab655e1fe1fe": "4d6c8fa6942845c87196eb5e0a4f641b",
-                "e50ba517c42642acba279ff855d76710": "e8fe1fbaedef1b46275bd0d6abc751dd"
-            },
+            "url": "https://d21emhonubg8zy.cloudfront.net/out/v1/063d830ad098456e8c76bd198dea0122/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1646"
@@ -884,8 +820,7 @@
             "name": "Rai Scuola",
             "hd": true,
             "type": "hls",
-            "url": "https://raiscuola1-live.akamaized.net/hls/live/598335/raiscuola1/raiscuola1/playlist.m3u8",
-            "license": "rai-akamai",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv&.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-scuola"
@@ -906,8 +841,7 @@
             "name": "Rai Sport",
             "hd": true,
             "type": "hls",
-            "url": "https://raisportuno1-live.akamaized.net/hls/live/598320/raisportuno1/raisportuno1/playlist_mo_1800-5000.m3u8",
-            "license": "rai-akamai",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv&.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-sport"
@@ -924,14 +858,7 @@
             "name": "Discovery Turbo",
             "hd": true,
             "type": "hls",
-            "url": "https://d1m086gym5403i.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9yn62b89f3m5l/out/v1/fa965f3d7abe46108988aed4fb3d0ee5/HLS_CMAF_DRM/index.m3u8",
-            "license": "clearkey",
-            "licensedetails": {
-                "f99c5016f4dc4cf1a420343c8512c91d": "9e59bc4b39fa6bb468bd11a5fe70e2cf",
-                "efee7e58cc634e24a7964ffa978c3f6e": "89fa2b9f0cb4e40f0542ba8a15f29328",
-                "6af7dcc14af74f2a8028bdfed480d8be": "8fe0edb7d57b2d71fa5387b8fc6ceb17",
-                "b6f59fbdfa5042e696693d34a069d342": "4085971e3b3515294b4cf8237d111d7f"
-            },
+            "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1384"
