@@ -5,6 +5,11 @@ import topLevelAwait from "vite-plugin-top-level-await";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default {
+    server: {
+        host: '0.0.0.0',
+        port: 10000,
+        allowedHosts: ['rebornzappr.onrender.com'] // replace "x" with your actual host
+    },
     build: {
         target: "chrome51",
         rollupOptions: {
