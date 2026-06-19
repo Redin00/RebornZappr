@@ -1,0 +1,27 @@
+{
+    "config": {
+        "channels": {
+            "host": "/channels"
+        },
+        "backend": {
+            "host": {
+                "vercel": "https://vercel-api.zappr.stream",
+                "cloudflare": "https://cloudflare-api.zappr.stream",
+                "alwaysdata": "https://alwaysdata-api.zappr.stream"
+            }
+        },
+        "logos": {
+            "host": "/channels/logos",
+            "optimized": true
+        },
+        "epg": {
+            "host": "https://epg.zappr.stream"
+        },
+        "fast": {
+            "host": "https://fast.zappr.stream"
+        },
+        "urgentalerts": {
+            "host": "https://urgent-alerts.zappr.stream"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+channels/
+dist/
+logos/
+node_modules/
+testing/
+package-lock.json
