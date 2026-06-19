@@ -1,0 +1,353 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Basilicata",
+            "type": "hls",
+            "url": "https://tgrbasilicata-live.akamaized.net/hls/live/2025559/tgrbasilicata/tgrbasilicata/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
+            "geoblock": true
+        },
+        {
+            "lcn": 10,
+            "logo": "telenorba.svg",
+            "name": "Telenorba",
+            "hd": true,
+            "type": "hls",
+            "url": "https://live-telenorba.cdn.netrw.it/telenorba/hls/ccr/telenorba/master.m3u8?start=now-320m",
+            "epg": {
+                "source": "norba",
+                "id": "11313512"
+            }
+        },
+        {
+            "lcn": 11,
+            "logo": "radionorba.svg",
+            "name": "Radio Norba Television",
+            "type": "hls",
+            "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8",
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "1499"
+            }
+        },
+        {
+            "lcn": 13,
+            "logo": "tgnorba24.svg",
+            "name": "TG Norba 24",
+            "hd": true,
+            "type": "hls",
+            "url": "https://live-telenorba.cdn.netrw.it/telenorba/hls/ccr/tgnorba/master.m3u8?start=now-320m",
+            "epg": {
+                "source": "norba",
+                "id": "13292552"
+            }
+        },
+        {
+            "lcn": 14,
+            "logo": "antennasud.svg",
+            "name": "Antenna Sud",
+            "hd": true,
+            "type": "hls",
+            "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/antennasud/master.m3u8?start=now-320m",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "antennasudsport",
+                "name": "Antenna Sud Sport",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport1/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 2,
+                "logo": "antennasudsport2",
+                "name": "Antenna Sud Sport 2",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport2/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 3,
+                "logo": "antennasudsport3",
+                "name": "Antenna Sud Sport 3",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport3/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 4,
+                "logo": "antennasudsport4",
+                "name": "Antenna Sud Sport 4",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport4/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 5,
+                "logo": "antennasudsport5",
+                "name": "Antenna Sud Sport 5",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport5/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 7,
+                "logo": "teleregionecolor",
+                "name": "Teleregione Color",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/teleregione/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 8,
+                "logo": "antennasud.svg",
+                "name": "Antenna Sud Extra",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/extra/master.m3u8?start=now-320m"
+            }]
+        },
+        {
+            "lcn": 15,
+            "logo": "telerama",
+            "name": "Telerama",
+            "type": "hls",
+            "url": "https://58d921499d3d3.streamlock.net/TeleRama/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 16,
+            "logo": "trmh24",
+            "name": "TRM h24",
+            "type": "youtube",
+            "url": "UCWxP-YJ_4OVmcKuwzmhW42Q",
+            "epg": {
+                "source": "sky",
+                "id": "9013"
+            }
+        },
+        {
+            "lcn": 17,
+            "logo": "telebari.svg",
+            "name": "Telebari",
+            "hd": true,
+            "type": "hls",
+            "url": "https://w1.mediastreaming.it/telebari/livestream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiobari",
+                "name": "Radiobari",
+                "type": "audio",
+                "url": "https://ssl1.mediastreaming.it:9062/;"
+            }]
+        },
+        {
+            "lcn": 18,
+            "logo": "telesveva",
+            "name": "Telesveva",
+            "hd": true,
+            "type": "hls",
+            "url": "https://live2.telesveva.com/hls/svevahd.m3u8"
+        },
+        {
+            "lcn": 19,
+            "logo": "teledehon.svg",
+            "name": "Tele Dehon",
+            "hd": true,
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Tele Dehon_it"
+            },
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "icarotv.svg",
+                "name": "Icaro TV",
+                "type": "hls",
+                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Icaro TV_it"
+                }
+            },
+            {
+                "sublcn": 2,
+                "logo": "teleliguriasud",
+                "name": "Tele Liguria Sud",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "tvl.svg",
+                "name": "TVL",
+                "type": "hls",
+                "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "teleradiopace1",
+                "name": "TeleRadioPace 1",
+                "type": "hls",
+                "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "TELERADIOPACE 1_it"
+                }
+            },
+            {
+                "sublcn": 5,
+                "logo": "videonovara",
+                "name": "Videonovara",
+                "hd": true,
+                "type": "hls",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "radiofratesole",
+                "name": "Radio Frate Sole",
+                "radio": "video",
+                "type": "hls",
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
+            },
+            {
+                "sublcn": 7,
+                "logo": "radiopace",
+                "name": "Radio Pace",
+                "radio": "video",
+                "type": "hls",
+                "url": "https://stream.mariatvcdn.com/trpradio/c92dd777d146ffcd75d0b6cfb13a9153.sdp/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 76,
+            "logo": "italia2news",
+            "name": "Italia 2 News",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8"
+        },
+        {
+            "lcn": 77,
+            "logo": "teleregionecolor",
+            "name": "Teleregione Color",
+            "hd": true,
+            "type": "hls",
+            "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/teleregione/master.m3u8?start=now-270m"
+        },
+        {
+            "lcn": 78,
+            "logo": "canale7.svg",
+            "name": "Canale 7",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/canale7/canale7/playlist.m3u8"
+        },
+        {
+            "lcn": 80,
+            "logo": "tvsei",
+            "name": "TVSEI",
+            "type": "hls",
+            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "TVSEI.tvprofil_it"
+            },
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "telemolise",
+                "name": "Telemolise",
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Telemolise.tvprofil_it"
+                }
+            },
+            {
+                "sublcn": 2,
+                "logo": "diciotto",
+                "name": "Diciotto",
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "radiolunamolise",
+                "name": "Promo Radio Luna",
+                "type": "direct",
+                "url": "https://www.lunanetwork.it/wp-content/uploads/2022/01/30-Secondi.mp4",
+                "ondemand": true
+            }]
+        },
+        {
+            "lcn": 81,
+            "logo": "telemolise",
+            "name": "Telemolise",
+            "type": "hls",
+            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Telemolise.tvprofil_it"
+            },
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "diciotto",
+                "name": "Diciotto",
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 82,
+            "logo": "lanuovatv.svg",
+            "name": "La Nuova TV",
+            "type": "hls",
+            "url": "https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 85,
+            "logo": "radiocarina",
+            "name": "Radio Carina TV",
+            "type": "hls",
+            "url": "https://samson.streamerr.co:8081/carinatv/index.m3u8"
+        },
+        {
+            "lcn": 87,
+            "logo": "trc",
+            "name": "TRC",
+            "type": "hls",
+            "url": "https://stream7.livinlive.it/trc/trc/playlist.m3u8"
+        },
+        {
+            "lcn": 88,
+            "logo": "telefoggia",
+            "name": "TeleFoggia",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u8"
+        },
+        {
+            "lcn": 89,
+            "logo": "radiocittàtv",
+            "name": "Radio Città TV",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video0s977971-2391/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 95,
+            "logo": "mediasud",
+            "name": "Mediasud",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"        
+        }
+    ]
+}
