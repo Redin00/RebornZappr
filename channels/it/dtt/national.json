@@ -566,6 +566,11 @@
             "hd": true,
             "type": "dash",
             "url": "https://alwaysdata-api.zappr.stream/k2.mpd",
+            "license": "clearkey",
+            "licensedetails": {
+                "AQDzs30qOtJULXjQAP": "UH6tky/iXm8eO6D8OfxwQA",
+                "AQXUzpSoqBeWu73Gq0rYXg": "ydhOxLc1msrSK4V2SyTkzg",
+            },
             "epg": {
                 "source": "blue",
                 "id": "225"
