@@ -615,7 +615,7 @@
             "name": "K2",
             "hd": true,
             "type": "dash",
-            "url": "https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8",
+            "url": "https://amg16146-wbdi-amg16146c6-samsung-it-1839.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "225"
@@ -659,16 +659,7 @@
             "name": "Frisbee",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/frisbee.mpd",
-            "license": "clearkey",
-            "licensedetails": {
-                "0100c4e62e71f8234dd351c39719f289": "54e36b8081149f82fede8a073bb849ea",
-                "0101df8e46342feb1c3af4deb9cae20e": "591e3976252c67b3d3754e05bfb18cc6",
-                "01020282919b84db71cbb1d4d9c5b8da": "6f5960345613d78c9142da316514c497",
-                "010359f5430752b1a62adb5c6582b6f2": "b76150e896241bcefd7f64e42fbb636e",
-                "0104cc42b23760320f22db99e1e6f7e9": "07e88517d67eee6d62c06a24a0ab527f",
-                "0105b63eff2190f9c01c9b160cdd8f78": "7a5dedd3b05d2f737e8ca5732611cf10"
-            },
+            "url": "https://amg16146-wbdi-amg16146c7-samsung-it-1840.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "189"
