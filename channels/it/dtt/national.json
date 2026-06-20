@@ -160,6 +160,10 @@
                 "source": "la7",
                 "id": "la7"
             },
+            "fallback": {
+                "type": "hls",
+                "url": "https://d1chghleocc9sm.cloudfront.net/Live.m3u8"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "la7it.svg",
@@ -281,17 +285,7 @@
                 "type": "iframe",
                 "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=395276&autoplay=true&muted=false",
                 "cssfix": "raiparlamento-embed"
-            },
-            "geoblock": true"lcn": 7,
-            "logo": "la7.svg",
-            "name": "LA7",
-            "hd": true,
-            "type": "dash",
-            "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7/DASH/Live.mpd",
-            "epg": {
-                "source": "blue",
-                "id": "237"
-            },
+            }
         },
         {
             "lcn": 24,
