@@ -232,7 +232,6 @@
             "hd": true,
             "type": "hls",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv&.m3u8",
-            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-4"
@@ -272,7 +271,6 @@
             "hd": true,
             "type": "hls",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv&.m3u8",
-            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-5"
@@ -295,7 +293,6 @@
             "hd": true,
             "type": "hls",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv&.m3u8",
-            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-movie"
@@ -318,7 +315,6 @@
             "hd": true,
             "type": "hls",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv&.m3u8",
-            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-premium"
