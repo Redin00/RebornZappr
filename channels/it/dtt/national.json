@@ -151,7 +151,9 @@
             "name": "LA7",
             "hd": true,
             "type": "dash",
-            "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7/DASH/Live.mpd",
+            "url": "https://d15umi5iaezxgx.cloudfront.net/LA7/DRM/DASH/Live.mpd",
+            "license": "clearkey",
+            "licensedetails": "db057321c9224c25a7ccd75d911dd1fc:005b948eb397a581d10ff8bb60d19c93",
             "epg": {
                 "source": "blue",
                 "id": "237"
@@ -159,10 +161,6 @@
             "manualRestart": {
                 "source": "la7",
                 "id": "la7"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://d1chghleocc9sm.cloudfront.net/Live.m3u8"
             },
             "hbbtv": [{
                 "sublcn": 1,
@@ -234,6 +232,7 @@
             "hd": true,
             "type": "hls",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv&.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-4"
@@ -273,6 +272,7 @@
             "hd": true,
             "type": "hls",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv&.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-5"
@@ -285,7 +285,8 @@
                 "type": "iframe",
                 "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=395276&autoplay=true&muted=false",
                 "cssfix": "raiparlamento-embed"
-            }
+            },
+            "geoblock": true
         },
         {
             "lcn": 24,
@@ -294,6 +295,7 @@
             "hd": true,
             "type": "hls",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv&.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-movie"
@@ -316,6 +318,7 @@
             "hd": true,
             "type": "hls",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv&.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-premium"
@@ -496,24 +499,11 @@
             "logo": "discovery.svg",
             "name": "Discovery",
             "hd": true,
-            "type": "iframe",
-            "url": "https://wbd.zappr.stream/discovery",
+            "type": "hls",
+            "url": "https://d3a5c87efixjp8.cloudfront.net/out/v1/12837340dbdf42f2b13481a5ca6f80b2/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "124"
-            },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://api.zappr.stream/discovery.mpd?clearkeyPlayer.maxQuality=720",
-                "license": "clearkey",
-                "licensedetails": {
-                    "0100108b761bb5edac85461e0bb3fb0d": "068b3fba256e1c983bec36ff9172ec2e",
-                    "01019975b8beddb720bca70ee9538e90": "7d21bb89a5274e7de7b39db48a5f574a",
-                    "0102eee1dc2cc69007d518af9ab8b07a": "cff31a511f50a1cafb28de73d9e3cfa7",
-                    "0103091ff82b4bae6532a678838bb10e": "00000000000000000000000000000000",
-                    "01049e8567fe557e7a466b8fde310bbe": "00000000000000000000000000000000",
-                    "010567972eb8b286eb47fbf7e71cd4a4": "00000000000000000000000000000000"
-                }
             }
         },
         {
@@ -521,24 +511,11 @@
             "logo": "giallo.svg",
             "name": "Giallo",
             "hd": true,
-            "type": "iframe",
-            "url": "https://wbd.zappr.stream/giallo",
+            "type": "hls",
+            "url": "https://d2iz84wnbtnuey.cloudfront.net/out/v1/8a939414e62c460a9ccab7b699ed1106/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "191"
-            },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://api.zappr.stream/giallo.mpd?clearkeyPlayer.maxQuality=720",
-                "license": "clearkey",
-                "licensedetails": {
-                    "010058ec487d57e3cfab7fdde6015993": "d14148377cfcc9349a9853bcee8e557a",
-                    "0101ea2e0cdd76392e342266346cdf37": "804a8f11c8821dad69464a1a32875e8f",
-                    "0102f0d2a220b14b8c1aa8f4c5eb893d": "c976405c88fe6387bef997947becd5d9",
-                    "01036f6d1a3e452c0bf8d869beee0c33": "00000000000000000000000000000000",
-                    "010472ef04f71a5e7f3b8e06db379144": "00000000000000000000000000000000",
-                    "0105c3a2810a70c0b2d00808f37fdb4b": "00000000000000000000000000000000"
-                }
             }
         },
         {
@@ -591,12 +568,8 @@
             "url": "https://alwaysdata-api.zappr.stream/k2.mpd",
             "license": "clearkey",
             "licensedetails": {
-                "0100f3b37d2a3ad2542d78d000ff91fa": "507ead932fe25e6f1e3ba0fc39fc7040",
-                "0101d89b4d19006867fa32807a520b3c": "6b7fad6b36b9db9f2e5a95f4b934a6fd",
-                "0102744f58a20d0e5153c97be37abac5": "cfdc30074c2b9c006b77d103b0566fa6",
-                "01030e665ffe3238d7754ca862207c93": "51de9fba37602a4b138bd33b2e7d6268",
-                "01049a11bd9b6749a499a06e442c76ff": "85d5e571cabc9327c335e529313b1bf4",
-                "0105d4ce94a8a81796bbbdc6ab4ad85e": "c9d84ec4b7359acad22b85764b24e4ce"
+                "AQDzs30qOtJULXjQAP": "UH6tky/iXm8eO6D8OfxwQA",
+                "AQXUzpSoqBeWu73Gq0rYXg": "ydhOxLc1msrSK4V2SyTkzg",
             },
             "epg": {
                 "source": "blue",
@@ -642,15 +615,6 @@
             "hd": true,
             "type": "dash",
             "url": "https://alwaysdata-api.zappr.stream/frisbee.mpd",
-            "license": "clearkey",
-            "licensedetails": {
-                "0100c4e62e71f8234dd351c39719f289": "54e36b8081149f82fede8a073bb849ea",
-                "0101df8e46342feb1c3af4deb9cae20e": "591e3976252c67b3d3754e05bfb18cc6",
-                "01020282919b84db71cbb1d4d9c5b8da": "6f5960345613d78c9142da316514c497",
-                "010359f5430752b1a62adb5c6582b6f2": "b76150e896241bcefd7f64e42fbb636e",
-                "0104cc42b23760320f22db99e1e6f7e9": "07e88517d67eee6d62c06a24a0ab527f",
-                "0105b63eff2190f9c01c9b160cdd8f78": "7a5dedd3b05d2f737e8ca5732611cf10"
-            },
             "epg": {
                 "source": "blue",
                 "id": "189"
@@ -766,23 +730,10 @@
             "name": "DMAX",
             "hd": true,
             "type": "hls",
-            "url": "https://wbd.zappr.stream/dmax",
+            "url": "https://d24suwc4j2wvyy.cloudfront.net/out/v1/1ef9705b7c534751889b6e01bb032f80/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "137"
-            }
-            "geoblock": {
-                "type": "dash",
-                "url": "https://api.zappr.stream/dmax.mpd?clearkeyPlayer.maxQuality=720",
-                "license": "clearkey",
-                "licensedetails": {
-                    "01003b85994dc3274165ac2d2bc1c0b0": "e35f031bcaa1714ac57a022fb26f135f",
-                    "0101998a4079efbebf260c192deaea9a": "6d9db354981743fc743fc02c5f98f699",
-                    "010285f1a98cb0f9c2690d6834b0cd7a": "a7afa9c822191295a655f82148b9b4bb",
-                    "01031ef976fa45e0b19b6b6b5919b1cb": "00000000000000000000000000000000",
-                    "01042986e9051678a4b6a4905ebbbefb": "00000000000000000000000000000000",
-                    "0105d330b73558c1a7ddc4aedc7e8f95": "00000000000000000000000000000000"
-                }
             }
         },
         {
