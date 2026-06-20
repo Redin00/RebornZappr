@@ -668,14 +668,10 @@
             "name": "Frisbee",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/frisbee.mpd",
+            "url": "https://alwaysdata-api.zappr.stream/frisbee.mpd",
             "license": "clearkey",
             "licensedetails": {
-                "0100c4e62e71f8234dd351c39719f289": "54e36b8081149f82fede8a073bb849ea",
-                "0101df8e46342feb1c3af4deb9cae20e": "591e3976252c67b3d3754e05bfb18cc6",
-                "01020282919b84db71cbb1d4d9c5b8da": "6f5960345613d78c9142da316514c497",
-                "010359f5430752b1a62adb5c6582b6f2": "b76150e896241bcefd7f64e42fbb636e",
-                "0104cc42b23760320f22db99e1e6f7e9": "07e88517d67eee6d62c06a24a0ab527f",
+                "0100c4e62e71f8234dd351c39719f289": "54e36b8081149f82fede8a073bb849eaA",
                 "0105b63eff2190f9c01c9b160cdd8f78": "7a5dedd3b05d2f737e8ca5732611cf10"
             },
             "epg": {
