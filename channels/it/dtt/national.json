@@ -792,11 +792,24 @@
             "logo": "dmax.svg",
             "name": "DMAX",
             "hd": true,
-            "type": "hls",
-            "url": "https://d24suwc4j2wvyy.cloudfront.net/out/v1/1ef9705b7c534751889b6e01bb032f80/HLS_CMAF_DRM/index.m3u8",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/dmax",
             "epg": {
                 "source": "blue",
                 "id": "137"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://api.zappr.stream/dmax.mpd?clearkeyPlayer.maxQuality=720",
+                "license": "clearkey",
+                "licensedetails": {
+                    "01003b85994dc3274165ac2d2bc1c0b0": "e35f031bcaa1714ac57a022fb26f135f",
+                    "0101998a4079efbebf260c192deaea9a": "6d9db354981743fc743fc02c5f98f699",
+                    "010285f1a98cb0f9c2690d6834b0cd7a": "a7afa9c822191295a655f82148b9b4bb",
+                    "01031ef976fa45e0b19b6b6b5919b1cb": "00000000000000000000000000000000",
+                    "01042986e9051678a4b6a4905ebbbefb": "00000000000000000000000000000000",
+                    "0105d330b73558c1a7ddc4aedc7e8f95": "00000000000000000000000000000000"
+                }
             }
         },
         {
@@ -875,11 +888,24 @@
             "logo": "hgtv.svg",
             "name": "HGTV - Home & Garden",
             "hd": true,
-            "type": "hls",
-            "url": "https://d21emhonubg8zy.cloudfront.net/out/v1/063d830ad098456e8c76bd198dea0122/HLS_CMAF_DRM/index.m3u8",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/hgtv",
             "epg": {
                 "source": "blue",
                 "id": "1646"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://api.zappr.stream/hgtv.mpd?clearkeyPlayer.maxQuality=720",
+                "license": "clearkey",
+                "licensedetails": {
+                    "0100a41cbf2b765bd32b545cba44bc8e": "21e9b8bd5db5a65a6b2d4160bae8ffcc",
+                    "01010cfea6b9fc12904c079e1d7da0ce": "fe45ce9597675cba8852c46aff3c0327",
+                    "01022b5987a8bcf1143b64d2075601ae": "046db9d7ac1770e194750045c078677f",
+                    "01033332424f79ad78e4a59b00238b48": "00000000000000000000000000000000",
+                    "01048cf20743e4291477f56b575c7ac7": "00000000000000000000000000000000",
+                    "01054ffac86eb0d90d095e271f95be6c": "00000000000000000000000000000000"
+                }
             }
         },
         {
@@ -925,11 +951,17 @@
             "logo": "discoveryturbo.svg",
             "name": "Discovery Turbo",
             "hd": true,
-            "type": "hls",
-            "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/turbo",
             "epg": {
                 "source": "blue",
                 "id": "1384"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(motortrendhd)/manifest.mpd",
+                "license": "clearkey",
+                "licensedetails": "b1f533e2ee35459e9be2d0ef1e2b61ab:749bd263e98796fbaf739088862de387"
             }
         },
         {
@@ -938,7 +970,11 @@
             "name": "Sportitalia",
             "hd": true,
             "type": "hls",
-            "url": "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
+            "url": "https://distribution.sportitalialive.it/sportitalia/sihd_abr2/playlist.m3u8",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://edge-004.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8"
+            },
             "epg": {
                 "source": "blue",
                 "id": "1387"
