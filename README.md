@@ -1,7 +1,31 @@
 <div align="center">
     <a href="README-en.md">English</a> | <b>Italiano</b>
 </div>
-<div align="center"><b>Questa è la repo del frontend di Zappr. Per le liste dei canali e i loghi vedere <a href="https://github.com/ZapprTV/channels">ZapprTV/channels</a>.</b></div>
+
+> [!IMPORTANT]
+> ### ⚠️ Avviso: Fork di Zappr
+> **RebornZappr** è un fork di [Zappr](https://github.com/ZapprTV/Zappr) che mira a reintegrare e mantenere accessibili tutti i canali (compresi Rai, Mediaset e altri) che non sono più disponibili nella versione originale.
+
+> [!TIP]
+> ### 🔄 Aggiornamento Canali da IPTV
+> Il progetto include uno script automatico ([`scripts/update_channels_from_iptv.py`](scripts/update_channels_from_iptv.py)) per estrarre e verificare gli stream più recenti, gestire licenze DRM (ClearKey, Widevine) ed EPG da playlist IPTV:
+> ```bash
+> # Aggiorna i canali con verifica live dei flussi (consigliato):
+> npm run update-channels:check
+>
+> # Oppure anteprima senza modifiche (dry-run):
+> npm run update-channels:dry
+> ```
+
+> [!NOTE]
+> ### 🚀 Hosting Gratuito su Render.com & Keep-Alive
+> Puoi deployare RebornZappr gratuitamente come **Web Service** su [Render.com](https://render.com):
+> - **Build Command**: `npm install && npm run build`
+> - **Start Command**: `npm run dev -- --host 0.0.0.0 --port $PORT` (oppure `npx vite preview --host 0.0.0.0 --port $PORT`)
+> 
+> ⏱️ **Consiglio per il piano gratuito**: I servizi gratuiti di Render vanno in modalità stand-by dopo 15 minuti di inattività. Per mantenerlo sempre attivo ed evitare il tempo di riavvio (cold start), puoi configurare un **cron-job / ping gratuito** (ad esempio tramite [cron-job.org](https://cron-job.org) o [UptimeRobot](https://uptimerobot.com)) che invii una richiesta HTTP GET all'URL del tuo sito ogni 10-14 minuti.
+
+<div align="center"><b>Questa è la repo del frontend di RebornZappr. Per le liste dei canali e i loghi vedere la cartella locale <a href="channels/">channels/</a> o <a href="https://github.com/Redin00/RebornZappr/tree/main/channels/">ZapprTV/channels</a>.</b></div>
 <br><br>
 <div align="center">
     <picture>

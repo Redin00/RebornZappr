@@ -21,7 +21,7 @@
             "host": "https://fast.zappr.stream"
         },
         "urgentalerts": {
-            "host": "https://urgent-alerts.zappr.stream"
+            "host": ""
         }
     }
 }

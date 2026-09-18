@@ -8,9 +8,15 @@ import VirtualList from "./virtualizedlist";
 import locales from "./locales";
 import countries from "./countries";
 
-let ipLocation = await fetch("https://zappr.stream/cdn-cgi/trace")
-    .then(response => response.text())
-    .then(trace => trace.split("\n").filter(el => el.startsWith("loc="))[0].split("=")[1].toLowerCase())
+let ipLocation = await fetch("https://zappr.stream/cdn-cgi/trace", { signal: AbortSignal.timeout(3000) })
+    .then(response => {
+        if (!response.ok) return "xx";
+        return response.text();
+    })
+    .then(trace => {
+        const line = trace.split("\n").find(el => el.startsWith("loc="));
+        return line ? line.split("=")[1].toLowerCase() : "xx";
+    })
     .catch(() => "xx");
 
 const isFirstVisit = JSON.stringify(localStorage) === "{}";
@@ -125,23 +131,32 @@ await fetch("/config.json")
                     "host": "https://fast.zappr.stream"
                 },
                 "urgentalerts": {
-                    "host": "https://urgent-alerts.zappr.stream"
+                    "host": ""
                 }
             }
         };
     });
 
-try {
-    fetch(`${zappr.config.urgentalerts.host}/${selectedCountry}`)
-        .then(response => { if (response.ok) return response.text(); })
-        .then(html => {
-            if (html) {
-                document.querySelector("#urgent-alerts").classList.add("active");
-                document.querySelector("#urgent-alerts").innerHTML = html;
-            };
-        });
-} catch (err) {
-    console.warn(`Couldn't fetch urgent alerts: ${err.stack}`);
+const urgentAlerts = document.querySelector("#urgent-alerts");
+const welcomeMessage = "Benvenuto su RebornZappr! Qui troverai tutti i canali non più disponibili sulla versione originale! Evvai!";
+
+if (urgentAlerts) {
+    urgentAlerts.classList.add("active");
+    urgentAlerts.innerHTML = welcomeMessage;
+}
+
+if (zappr.config?.urgentalerts?.host && !zappr.config.urgentalerts.host.includes("zappr.stream")) {
+    try {
+        fetch(`${zappr.config.urgentalerts.host}/${selectedCountry}`)
+            .then(response => { if (response.ok) return response.text(); })
+            .then(html => {
+                if (html && urgentAlerts) {
+                    urgentAlerts.innerHTML = html;
+                };
+            });
+    } catch (err) {
+        console.warn(`Couldn't fetch urgent alerts: ${err.stack}`);
+    };
 };
 
 let currentType = "",
@@ -288,7 +303,7 @@ const createErrorModal = async ({ title, error, info, params, type }) => {
                     ? locale["unreportableErrorFAST"]
                     : locale["reportError"]}</p>
             ${!(type === "dash" && isiOS) && params.lcn < 1000 ? `<div class="modal-buttons">
-                <a class="button primary" href="https://github.com/ZapprTV/channels/issues/new?${urlParams}" target="_blank">
+                <a class="button primary" href="https://github.com/Redin00/RebornZappr/issues/new?${urlParams}" target="_blank">
                     ${locale["reportViaGithub"]}
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#fff" d="M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h7v2H5v14h14v-7h2v7q0 .825-.587 1.413T19 21zm4.7-5.3l-1.4-1.4L17.6 5H14V3h7v7h-2V6.4z"></path></svg>
                 </a>
@@ -1054,7 +1069,7 @@ const loadChannel = async ({ type, url, api = false, name, lcn, logo, fullLogo, 
                 };
                 loadStream({
                     type: "iframe",
-                    url: `clearkey/?${new URLSearchParams(params).toString()}`,
+                    url: `/clearkey/index.html?${new URLSearchParams(params).toString()}`,
                     name: name,
                     lcn: lcn,
                     logo: logo,
@@ -1225,7 +1240,11 @@ const generateChannelHTML = (channel) => {
 await fetch(getChannelsListURL(`${countries[selectedCountry].location}/national`))
     .then(response => response.json())
     .then(nationalChannels => {
-        window.zappr.nationalChannels = nationalChannels.channels;
+        window.zappr.nationalChannels = nationalChannels.channels || [];
+    })
+    .catch(err => {
+        console.warn(`Could not load national channels: ${err}`);
+        window.zappr.nationalChannels = [];
     });
 
 if (new URLSearchParams(location.search).get("androidtv") != null && localStorage.getItem("region") === "national") document.querySelector(`input[value="national"]`).checked = true;
@@ -1236,13 +1255,17 @@ if (localStorage.getItem("region") != null && localStorage.getItem("region") != 
     await fetch(getChannelsListURL(`${countries[selectedCountry].location}/regional/${localStorage.getItem("region")}`))
         .then(response => response.json())
         .then(json => {
-            window.zappr.regionalChannels = json.channels;
+            window.zappr.regionalChannels = json.channels || [];
             
-            window.zappr.channels = window.zappr.nationalChannels.concat(window.zappr.regionalChannels);
+            window.zappr.channels = (window.zappr.nationalChannels || []).concat(window.zappr.regionalChannels);
             window.zappr.channels.sort((a, b) => a.lcn - b.lcn);
+        })
+        .catch(err => {
+            console.warn(`Could not load regional channels: ${err}`);
+            window.zappr.channels = window.zappr.nationalChannels || [];
         });
 } else {
-    window.zappr.channels = window.zappr.nationalChannels;
+    window.zappr.channels = window.zappr.nationalChannels || [];
 };
 
 let fastChannelsPresent = false;

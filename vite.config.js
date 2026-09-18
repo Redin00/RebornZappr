@@ -8,7 +8,7 @@ export default {
     server: {
         host: '0.0.0.0',
         port: 10000,
-        allowedHosts: ['rebornzappr.onrender.com'] // replace "x" with your actual host
+        allowedHosts: true
     },
     build: {
         target: "chrome51",

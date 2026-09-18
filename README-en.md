@@ -1,7 +1,31 @@
 <div align="center">
     <b>English</b> | <a href="README.md">Italiano</a>
 </div>
-<div align="center"><b>This repo contains Zappr's frontend. For the channel lists and the logos, you should turn to <a href="https://github.com/ZapprTV/channels">ZapprTV/channels</a>.</b></div>
+
+> [!IMPORTANT]
+> ### ⚠️ Notice: Fork of Zappr
+> **RebornZappr** is a fork of [Zappr](https://github.com/ZapprTV/Zappr) aimed at integrating and preserving all channels (including Rai, Mediaset, and other stations) that are no longer available in the original version.
+
+> [!TIP]
+> ### 🔄 Channel Updater from IPTV
+> The project includes an automated script ([`scripts/update_channels_from_iptv.py`](scripts/update_channels_from_iptv.py)) to fetch and verify the latest streams, DRM licenses (ClearKey, Widevine), and EPG from updated IPTV playlists:
+> ```bash
+> # Update channels with live stream verification (recommended):
+> npm run update-channels:check
+>
+> # Or preview changes without writing (dry-run):
+> npm run update-channels:dry
+> ```
+
+> [!NOTE]
+> ### 🚀 Free Hosting on Render.com & Keep-Alive
+> You can deploy RebornZappr for free as a **Web Service** on [Render.com](https://render.com):
+> - **Build Command**: `npm install && npm run build`
+> - **Start Command**: `npm run dev -- --host 0.0.0.0 --port $PORT` (or `npx vite preview --host 0.0.0.0 --port $PORT`)
+> 
+> ⏱️ **Free Tier Keep-Alive Tip**: Render's free tier instances spin down after 15 minutes of inactivity. To keep your instance running 24/7 and avoid cold starts, set up a free **ping/cron job** (e.g., using [cron-job.org](https://cron-job.org) or [UptimeRobot](https://uptimerobot.com)) to send an HTTP GET request to your site URL every 10–14 minutes.
+
+<div align="center"><b>This repo contains RebornZappr's frontend. For the channel lists and the logos, check the local <a href="channels/">channels/</a> folder or <a href="https://github.com/ZapprTV/channels">ZapprTV/channels</a>.</b></div>
 <br><br>
 <div align="center">
     <picture>

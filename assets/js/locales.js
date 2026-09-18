@@ -17,12 +17,9 @@ export default {
         installPWA: "Installa",
         tvChangeRegion: "per cambiare regione",
         saveAndReload: "Salva e ricarica",
-        infoTooltip: `Zappr è il nuovo modo di guardare la TV. Guarda la maggior parte dei canali nazionali e locali del tuo paese, online, gratuitamente e senza configurazioni complesse.
+        infoTooltip: `RebornZappr è il nuovo modo di guardare la TV. Guarda la maggior parte dei canali nazionali e locali del tuo paese, online, gratuitamente e senza configurazioni complesse.
         <br><br>
-        <a href="https://ko-fi.com/FrancescoRosi" target="_blank" class="tooltip-link" id="donation-link">Invia una donazione :)</a>
-        <a href="https://github.com/ZapprTV" target="_blank" id="github-link" class="tooltip-link">Visualizza il codice sorgente su GitHub</a>
-        <div class="tooltip-link" id="news-links">Rimani aggiornato sulle ultime novità seguendoci su <a href="https://www.facebook.com/ZapprTV" target="_blank">Facebook</a>, <a href="https://x.com/ZapprStream" target="_blank">Twitter</a> o <a href="https://mastodon.uno/@zappr" target="_blank">Mastodon</a></div>
-        <a href="mailto:zappr@francescoro.si" class="tooltip-link" id="email-link">Contattaci via email</a>`,
+        <a href="https://github.com/Redin00/RebornZappr" target="_blank" id="github-link" class="tooltip-link">Visualizza il codice sorgente su GitHub</a>`,
         playerLanguageCSS: `:root {
             --videojs-plyr-quality-text: "Qualità";
             --videojs-plyr-captions-text: "Sottotitoli";
@@ -68,8 +65,8 @@ export default {
         disabledGeoblock: "Questo canale è visibile solo nel suo paese di origine.",
         warning: "Attenzione!",
         geoblockMessage: "La nazione del tuo indirizzo IP non corrisponde a quella della nazione scelta. Ciò significa che alcuni canali non saranno visibili.<br><br>Per evitare completamente questi blocchi geografici, usa una VPN.",
-        welcomeTitle: "Ti diamo il benvenuto a Zappr!",
-        welcomeText: "Zappr ti permette di guardare facilmente e gratuitamente il digitale terrestre, nazionale e locale <span class=\"italic\">(ricordati di impostare la tua regione nelle impostazioni!)</span>, e i canali di Samsung TV Plus e Pluto TV.<br><br>Per iniziare a vedere un canale, cliccaci sopra o scrivi la sua numerazione sulla tua tastiera e premi <b>Invio</b>. Per fare zapping, invece, puoi usare i tasti <b>PageDown</b> e <b>PageUp</b> per scorrere tra i canali.<br><br>Infine, se un canale ha la guida TV, puoi cliccare sopra al nome del programma in onda per visionare la guida TV completa fino a 7 giorni dal giorno corrente.<br><br>Questo è quanto. <b>Buona visione!</b>",
+        welcomeTitle: "Ti diamo il benvenuto a RebornZappr!",
+        welcomeText: "RebornZappr ti permette di guardare facilmente e gratuitamente il digitale terrestre, nazionale e locale <span class=\"italic\">(ricordati di impostare la tua regione nelle impostazioni!)</span>, e i canali di Samsung TV Plus e Pluto TV.<br><br>Per iniziare a vedere un canale, cliccaci sopra o scrivi la sua numerazione sulla tua tastiera e premi <b>Invio</b>. Per fare zapping, invece, puoi usare i tasti <b>PageDown</b> e <b>PageUp</b> per scorrere tra i canali.<br><br>Infine, se un canale ha la guida TV, puoi cliccare sopra al nome del programma in onda per visionare la guida TV completa fino a 7 giorni dal giorno corrente.<br><br>Questo è quanto. <b>Buona visione!</b>",
         newsInstructions: "Clicca su un titolo per leggere la notizia completa, oppure clicca su un'immagine per ingrandirla.",
         newsHosting: `Hosting del feed fornito da <a href="https://mastodon.uno" target="_blank">mastodon.uno</a> :)`,
         newsURL: "https://mastodon.uno/@zappr.rss",
@@ -95,12 +92,9 @@ export default {
         installPWA: "Install",
         tvChangeRegion: "to switch regions",
         saveAndReload: "Save and reload",
-        infoTooltip: `Zappr is the new way to watch TV. Watch most of your country's national and local channels, online, for free and without any complicated setup.
+        infoTooltip: `RebornZappr is the new way to watch TV. Watch most of your country's national and local channels, online, for free and without any complicated setup.
         <br><br>
-        <a href="https://ko-fi.com/FrancescoRosi" target="_blank" class="tooltip-link" id="donation-link">Send a donation :)</a>
-        <a href="https://github.com/ZapprTV" target="_blank" id="github-link" class="tooltip-link">View the source code on GitHub</a>
-        <div class="tooltip-link" id="news-links">Stay up to date with the latest by following us on <a href="https://www.facebook.com/ZapprTV" target="_blank">Facebook</a>, <a href="https://x.com/ZapprStream" target="_blank">Twitter</a> or <a href="https://mastodon.uno/@zappr" target="_blank">Mastodon</a></div>
-        <a href="mailto:zappr@francescoro.si" class="tooltip-link" id="email-link">Contact us via email</a>`,
+        <a href="https://github.com/Redin00/RebornZappr" target="_blank" id="github-link" class="tooltip-link">View the source code on GitHub</a>`,
         playerLanguageCSS: `.epg-item-container::after {
             content: "The requested programme will start shortly" !important;
         }
@@ -120,7 +114,7 @@ export default {
         nowPlaying: "Now playing",
         channelError: "Channel error",
         cantLoad: "Failed to load",
-        unknownSuffix: "unknown to Zappr",
+        unknownSuffix: "unknown to RebornZappr",
         unknownErrorInfo: "Unknown error",
         formatServerError: "because of a format/server problem",
         formatServerErrorTitle: "Format/server error",
@@ -138,8 +132,8 @@ export default {
         disabledGeoblock: "This channel is only visible in its country of origin.",
         warning: "Warning!",
         geoblockMessage: "Your IP address' country doesn't match the country you chose. This means some channels won't be visible.<br><br>To get around geoblocks, use a VPN.",
-        welcomeTitle: "Welcome to Zappr!",
-        welcomeText: "Zappr allows you to watch your country's free-to-air channels, national and local <span class=\"italic\">(remember to set your country and region in the settings!)</span>.<br><br>To start watching a channel, click on it or type its channel number on your keyboard and press <b>Enter</b>. To zap between channels, use the <b>PageDown</b> and <b>PageUp</b> keys.<br><br>That's all for now. <b>Enjoy!</b>",
+        welcomeTitle: "Welcome to RebornZappr!",
+        welcomeText: "RebornZappr allows you to watch your country's free-to-air channels, national and local <span class=\"italic\">(remember to set your country and region in the settings!)</span>.<br><br>To start watching a channel, click on it or type its channel number on your keyboard and press <b>Enter</b>. To zap between channels, use the <b>PageDown</b> and <b>PageUp</b> keys.<br><br>That's all for now. <b>Enjoy!</b>",
         newsInstructions: "Click on a title to read the full post, or click on an image to view it in full.",
         newsHosting: `Feed hosting provided by <a href="https://mastodon.uno" target="_blank">mastodon.uno</a> :)`,
         newsURL: "https://mastodon.uno/@zappr.rss",

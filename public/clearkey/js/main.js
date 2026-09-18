@@ -6,7 +6,13 @@ const nonPlayerSearch = Object.fromEntries(searchParams.filter(([key]) => !key.s
 const finalURL = `${urlWithoutSearch}?${new URLSearchParams(nonPlayerSearch).toString()}`;
 const kid = new URL(location.href).searchParams.get("kid");
 const key = new URL(location.href).searchParams.get("key");
-const keys = JSON.parse(decodeURIComponent(new URL(location.href).searchParams.get("keys")));
+let keys = null;
+try {
+    const rawKeys = new URL(location.href).searchParams.get("keys");
+    if (rawKeys) keys = JSON.parse(decodeURIComponent(rawKeys));
+} catch (e) {
+    console.warn("Could not parse keys:", e);
+}
 
 if (finalURL) {
     document.addEventListener("shaka-ui-loaded", async () => {

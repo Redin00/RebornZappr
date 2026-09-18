@@ -128,11 +128,12 @@
                         "type": "string",
                         "title": "DRM/license type",
                         "description": "What DRM/licensing system to use to play the channel.",
-                        "enum": ["xdevel-wms", "rai-akamai", "clearkey"],
+                        "enum": ["xdevel-wms", "rai-akamai", "clearkey", "widevine"],
                         "meta:enum": {
                             "xdevel-wms": "Xdevel WMS Auth Sign (play.xdevel.com/was)",
                             "rai-akamai": "Rai channels on Akamai servers",
-                            "clearkey": "ClearKey (specify keys in licensedetails)"
+                            "clearkey": "ClearKey (specify keys in licensedetails)",
+                            "widevine": "Widevine DRM (specify server URL or config in licensedetails)"
                         },
                         "anyOf": [{
                             "const": "xdevel-wms",
@@ -146,6 +147,11 @@
                             "const": "clearkey",
                             "title": "ClearKey",
                             "description": "Specify keys in licensedetails"
+                        },
+                        {
+                            "const": "widevine",
+                            "title": "Widevine DRM",
+                            "description": "Specify license server URL or config in licensedetails"
                         }]
                     },
                     "licensedetails": {
