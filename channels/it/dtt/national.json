@@ -81,8 +81,8 @@
             "logo": "rete4.svg",
             "name": "Rete 4",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "348"
@@ -106,8 +106,8 @@
             "logo": "canale5.svg",
             "name": "Canale 5",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "79"
@@ -128,8 +128,8 @@
             "logo": "italia1.svg",
             "name": "Italia 1",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "215"
@@ -191,7 +191,7 @@
             "name": "NOVE",
             "hd": true,
             "type": "hls",
-            "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8",
+            "url": "https://d3pkcyie9gav9y.cloudfront.net/out/v1/fdb9d129ff7f4a7bbc8fe0902122e48f/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "118"
@@ -208,6 +208,10 @@
                     "0104f7876c67c31f8815d9bcb3e5049c": "00000000000000000000000000000000",
                     "01051f2b5db19b13fe7402b4d1e53fb6": "00000000000000000000000000000000"
                 }
+            },
+            "license": "widevine",
+            "licensedetails": {
+                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
             }
         },
         {
@@ -215,8 +219,8 @@
             "logo": "20.svg",
             "name": "20 Mediaset",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "1379"
@@ -254,8 +258,8 @@
             "logo": "iris.svg",
             "name": "Iris",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "214"
@@ -348,8 +352,8 @@
             "logo": "twentyseven.svg",
             "name": "TwentySeven",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "1948"
@@ -378,7 +382,7 @@
             "name": "LA7 Cinema",
             "hd": true,
             "type": "dash",
-            "url": "https://d15umi5iaezxgx.cloudfront.net/LA7D/DRM/DASH/Live.mpd",
+            "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7D/DASH/Live.mpd",
             "epg": {
                 "source": "blue",
                 "id": "239"
@@ -395,8 +399,8 @@
             "logo": "la5.svg",
             "name": "La5",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "243"
@@ -413,7 +417,7 @@
             "name": "Real Time",
             "hd": true,
             "type": "hls",
-            "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8",
+            "url": "https://d2op4s24rubfe0.cloudfront.net/out/v1/54acbe71ddae4c9986c03fad1352bc84/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "346"
@@ -430,6 +434,10 @@
                     "01047897bfba70c27d98af57f449ed0a": "00000000000000000000000000000000",
                     "01052f86b83705659de18a9e97d9ce83": "00000000000000000000000000000000"
                 }
+            },
+            "license": "widevine",
+            "licensedetails": {
+                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
             }
         },
         {
@@ -449,7 +457,7 @@
             "name": "Food Network",
             "hd": true,
             "type": "hls",
-            "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8",
+            "url": "https://d9kc4bu8iry3b.cloudfront.net/out/v1/dcecf7d9fd2b49c59e85a65016ddc255/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1348"
@@ -466,6 +474,10 @@
                     "0104d2e104e28993051da23b8b87bd3b": "00000000000000000000000000000000",
                     "0105e391afe4bab7de0d419f21704691": "00000000000000000000000000000000"
                 }
+            },
+            "license": "widevine",
+            "licensedetails": {
+                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
             }
         },
         {
@@ -473,8 +485,8 @@
             "logo": "cine34.svg",
             "name": "Cine34",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "1665"
@@ -493,8 +505,8 @@
             "logo": "focus.svg",
             "name": "Focus",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "1346"
@@ -526,7 +538,7 @@
             "name": "Discovery",
             "hd": true,
             "type": "hls",
-            "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8",
+            "url": "https://d3a5c87efixjp8.cloudfront.net/out/v1/12837340dbdf42f2b13481a5ca6f80b2/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "124"
@@ -543,6 +555,10 @@
                     "01049e8567fe557e7a466b8fde310bbe": "00000000000000000000000000000000",
                     "010567972eb8b286eb47fbf7e71cd4a4": "00000000000000000000000000000000"
                 }
+            },
+            "license": "widevine",
+            "licensedetails": {
+                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
             }
         },
         {
@@ -551,7 +567,7 @@
             "name": "Giallo",
             "hd": true,
             "type": "hls",
-            "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8",
+            "url": "https://d2iz84wnbtnuey.cloudfront.net/out/v1/8a939414e62c460a9ccab7b699ed1106/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "191"
@@ -568,6 +584,10 @@
                     "010472ef04f71a5e7f3b8e06db379144": "00000000000000000000000000000000",
                     "0105c3a2810a70c0b2d00808f37fdb4b": "00000000000000000000000000000000"
                 }
+            },
+            "license": "widevine",
+            "licensedetails": {
+                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
             }
         },
         {
@@ -575,8 +595,8 @@
             "logo": "topcrime.svg",
             "name": "Top Crime",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "613"
@@ -595,8 +615,8 @@
             "logo": "boing.svg",
             "name": "Boing",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "51"
@@ -688,8 +708,8 @@
             "logo": "cartoonito.svg",
             "name": "Cartoonito",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "84"
@@ -708,8 +728,8 @@
             "lcn": 47,
             "logo": "super.svg",
             "name": "Super!",
-            "type": "dash",
-            "url": "https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/manifest_dvr.mpd",
+            "type": "hls",
+            "url": "https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "412"
@@ -732,8 +752,8 @@
             "logo": "italia2.svg",
             "name": "Italia 2",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "216"
@@ -764,8 +784,8 @@
             "logo": "tgcom24.svg",
             "name": "TGcom24",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "1287"
@@ -781,7 +801,7 @@
             "name": "DMAX",
             "hd": true,
             "type": "hls",
-            "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DMAX/CMAF/index.m3u8",
+            "url": "https://d24suwc4j2wvyy.cloudfront.net/out/v1/1ef9705b7c534751889b6e01bb032f80/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "137"
@@ -798,6 +818,10 @@
                     "01042986e9051678a4b6a4905ebbbefb": "00000000000000000000000000000000",
                     "0105d330b73558c1a7ddc4aedc7e8f95": "00000000000000000000000000000000"
                 }
+            },
+            "license": "widevine",
+            "licensedetails": {
+                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
             }
         },
         {
@@ -835,8 +859,8 @@
             "logo": "mediasetextra.svg",
             "name": "Mediaset Extra",
             "hd": true,
-            "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8",
+            "type": "dash",
+            "url": "https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "257"
@@ -879,7 +903,7 @@
             "name": "HGTV - Home & Garden",
             "hd": true,
             "type": "hls",
-            "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/HGTV/CMAF/index.m3u8",
+            "url": "https://d21emhonubg8zy.cloudfront.net/out/v1/063d830ad098456e8c76bd198dea0122/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1646"
@@ -896,6 +920,10 @@
                     "01048cf20743e4291477f56b575c7ac7": "00000000000000000000000000000000",
                     "01054ffac86eb0d90d095e271f95be6c": "00000000000000000000000000000000"
                 }
+            },
+            "license": "widevine",
+            "licensedetails": {
+                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
             }
         },
         {
@@ -925,7 +953,7 @@
             "name": "Rai Sport",
             "hd": true,
             "type": "hls",
-            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=16&forceUserAgent=raiplayappletv",
+            "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-sport"
@@ -941,8 +969,8 @@
             "logo": "discoveryturbo.svg",
             "name": "Discovery Turbo",
             "hd": true,
-            "type": "iframe",
-            "url": "https://wbd.zappr.stream/turbo",
+            "type": "hls",
+            "url": "https://d1m086gym5403i.cloudfront.net/out/v1/fa965f3d7abe46108988aed4fb3d0ee5/HLS_CMAF_DRM/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1384"
@@ -952,6 +980,10 @@
                 "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(motortrendhd)/manifest.mpd",
                 "license": "clearkey",
                 "licensedetails": "b1f533e2ee35459e9be2d0ef1e2b61ab:749bd263e98796fbaf739088862de387"
+            },
+            "license": "widevine",
+            "licensedetails": {
+                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
             }
         },
         {
@@ -960,7 +992,7 @@
             "name": "Sportitalia",
             "hd": true,
             "type": "hls",
-            "url": "https://distribution.sportitalialive.it/sportitalia/sihd_abr2/playlist.m3u8",
+            "url": "https://edge-001.streamup.eu/sportitalia/sihd_abr2/sportitalia/sihd_720p/playlist.m3u8",
             "geoblock": {
                 "type": "hls",
                 "url": "https://edge-004.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8"
@@ -1844,7 +1876,7 @@
             "name": "Rai Radio 2 Visual",
             "hd": true,
             "type": "hls",
-            "url": "https://visualradiodue3-live.akamaized.net/hls/live/2034078/visualradiodue3/visualradiodue3/playlist.m3u8",
+            "url": "http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv",
             "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
@@ -1855,7 +1887,8 @@
                 "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=5674080&autoplay=true&muted=false",
                 "cssfix": "raiparlamento-embed"
             },
-            "geoblock": true
+            "geoblock": true,
+            "http": true
         },
         {
             "lcn": 203,
@@ -2359,8 +2392,8 @@
             "logo": "man-ga",
             "name": "Man-ga",
             "hd": true,
-            "type": "dash",
-            "url": "https://vdnwndmsc2-c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/manifest.mpd",
+            "type": "hls",
+            "url": "https://streamcdnr9-c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/chunklist.m3u8",
             "epg": {
                 "source": "epgshare",
                 "id": "MAN-GA"
@@ -3919,7 +3952,7 @@
             "logo": "supersix",
             "name": "SuperSix",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/supersixnew/supersixnew/playlist.m3u8",
+            "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8",
             "hbbtv": [
                 {
                     "sublcn": 1,
