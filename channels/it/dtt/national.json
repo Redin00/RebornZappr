@@ -537,28 +537,36 @@
             "logo": "discovery.svg",
             "name": "Discovery",
             "hd": true,
-            "type": "hls",
-            "url": "https://d3a5c87efixjp8.cloudfront.net/out/v1/12837340dbdf42f2b13481a5ca6f80b2/HLS_CMAF_DRM/index.m3u8",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/discovery",
+            "epg": {
+                "source": "tivu",
+                "id": "294"
+            }
+        },
+        {
+            "lcn": 38,
+            "logo": "giallo.svg",
+            "name": "Giallo",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp6-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09717/stb-dash-fhd-avc/SV09717.mpd",
+            "license": "clearkey",
+            "licensedetails": {
+                "4b1d0a37600d45c993c6adac0347b937": "77c319eae6bc48b9ce3b72925ca03c95",
+                "0e4d0798030535ef8a79befcce66e6da": "76b084ba52e9fac968bdbbf6c0055a97"
+            },
             "epg": {
                 "source": "blue",
-                "id": "124"
+                "id": "191"
             },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://api.zappr.stream/discovery.mpd?clearkeyPlayer.maxQuality=720",
-                "license": "clearkey",
-                "licensedetails": {
-                    "0100108b761bb5edac85461e0bb3fb0d": "068b3fba256e1c983bec36ff9172ec2e",
-                    "01019975b8beddb720bca70ee9538e90": "7d21bb89a5274e7de7b39db48a5f574a",
-                    "0102eee1dc2cc69007d518af9ab8b07a": "cff31a511f50a1cafb28de73d9e3cfa7",
-                    "0103091ff82b4bae6532a678838bb10e": "00000000000000000000000000000000",
-                    "01049e8567fe557e7a466b8fde310bbe": "00000000000000000000000000000000",
-                    "010567972eb8b286eb47fbf7e71cd4a4": "00000000000000000000000000000000"
-                }
+            "manualRestart": {
+                "source": "wbd",
+                "id": "giallo"
             },
-            "license": "widevine",
-            "licensedetails": {
-                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/giallo"
             }
         },
         {
