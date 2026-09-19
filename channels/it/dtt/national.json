@@ -570,35 +570,6 @@
             }
         },
         {
-            "lcn": 38,
-            "logo": "giallo.svg",
-            "name": "Giallo",
-            "hd": true,
-            "type": "hls",
-            "url": "https://d2iz84wnbtnuey.cloudfront.net/out/v1/8a939414e62c460a9ccab7b699ed1106/HLS_CMAF_DRM/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "191"
-            },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://api.zappr.stream/giallo.mpd?clearkeyPlayer.maxQuality=720",
-                "license": "clearkey",
-                "licensedetails": {
-                    "010058ec487d57e3cfab7fdde6015993": "d14148377cfcc9349a9853bcee8e557a",
-                    "0101ea2e0cdd76392e342266346cdf37": "804a8f11c8821dad69464a1a32875e8f",
-                    "0102f0d2a220b14b8c1aa8f4c5eb893d": "c976405c88fe6387bef997947becd5d9",
-                    "01036f6d1a3e452c0bf8d869beee0c33": "00000000000000000000000000000000",
-                    "010472ef04f71a5e7f3b8e06db379144": "00000000000000000000000000000000",
-                    "0105c3a2810a70c0b2d00808f37fdb4b": "00000000000000000000000000000000"
-                }
-            },
-            "license": "widevine",
-            "licensedetails": {
-                "serverURL": "https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine"
-            }
-        },
-        {
             "lcn": 39,
             "logo": "topcrime.svg",
             "name": "Top Crime",
